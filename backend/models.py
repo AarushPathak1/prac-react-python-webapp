@@ -1,7 +1,7 @@
 from config import db
 
 
-class contact(db.Model):
+class Contact(db.Model):
     id = db.column(db.Integer, primary_key=True)
     first_name = db.column(db.String(80), nullable=False, unique=False)
     last_name = db.column(db.String(80), nullable=False, unique=False)
