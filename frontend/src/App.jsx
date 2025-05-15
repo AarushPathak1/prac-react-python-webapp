@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import ContactList from './ContactList'
+import ContactForm from './ContactForm'
 
 function App() {
   
@@ -17,7 +18,10 @@ function App() {
     setContacts(data.contacts)
   }
 
-  return <ContactList contacts={contacts} />
+  return <>
+    <ContactList contacts={contacts} />
+    <ContactForm />
+  </>
 }
 
 export default App
