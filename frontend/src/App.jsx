@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import ContactList from './ContactList'
 
 function App() {
   
@@ -16,10 +17,7 @@ function App() {
     setContacts(data.contacts)
   }
 
-  return (
-    <>
-    </>
-  )
+  return <ContactList contacts={contacts} />
 }
 
 export default App
