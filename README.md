@@ -8,7 +8,7 @@ A simple full-stack CRUD web application built with **React.js** on the frontend
 
 ### Frontend
 - [React.js](https://reactjs.org/)
-- Fetch API or Axios for HTTP requests
+- Fetch API
 - CSS for styling
 
 ### Backend
